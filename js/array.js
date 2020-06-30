@@ -44,3 +44,14 @@ document.write("<br>");
 // ordenar un array
 document.write(amigos3.sort());
 document.write("<br>");
+
+// Eliminar Primer elemento
+document.write(amigos.shift());
+document.write("<br>");
+//ver como quedó el array
+document.write(amigos);
+document.write("<br>");
+// insertar un elemento al principio del array
+amigos.unshift("Enrique");
+document.write("<br>");
+document.write(amigos);
