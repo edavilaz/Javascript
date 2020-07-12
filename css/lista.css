@@ -67,3 +67,13 @@ body {
 .tareas .lista li a:hover{
     text-decoration: line-through;
 }
+
+/* pruebas */
+
+p, .bloque {
+    margin-bottom: 25px;
+}
+
+
+
+
