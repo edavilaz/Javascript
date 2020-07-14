@@ -4,24 +4,40 @@
 
     /* color: hsla(11, 100%, 50%, 0.3); */
 }
-body {
+/* body {
     background: url(../img/base.png) no-repeat;
-    background-size: contain;
-}
-/* .p1 {
-    background-color: yellow;
-    border: 10px dotted red;
-    padding: 15px;
-    background-clip: border-box;
-} */
+    
+}  */
 
-/* .p2 {
-  border: 10px dashed black;
-  padding: 25px;
-  background: url(../img/base.png);
-  background-repeat: no-repeat;
-  background-position: 54% 9% ;
-} */
+a:link{
+    color: blue;
+}
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+a:active{
+    color:red;
+}
+h2 {
+    font: italic small-caps bold 12px georgia;
+}
+
+img {
+    width: 10px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+.p1 {
+    color: red;
+    white-space: nowrap;
+ }
+ .p2 {
+  border: 1px dashed black;
+} 
 
 /* body {
     background: url(../img/base.png) no-repeat;
