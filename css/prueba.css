@@ -1,6 +1,6 @@
-* {
+/* * {
     padding 0;
-    margin 0;
+    margin 0; */
 
     /* color: hsla(11, 100%, 50%, 0.3); */
 }
@@ -8,6 +8,51 @@
     background: url(../img/base.png) no-repeat;
     
 }  */
+
+ul{
+    list-style-image:url(../img/apple_16.png);
+    list-style-position:outside ;
+}
+ol {
+    list-style-type:upper-alpha;
+}
+
+table,tr,td  {
+    border: 1px solid black;
+   }
+    
+table {
+    
+    table-layout: auto;
+    } 
+/* tr {
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+td:hover{
+    background-color: blueviolet;
+}
+
+tr:nth-child(odd) {
+    background-color: yellowgreen;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 a:link{
     color: blue;
